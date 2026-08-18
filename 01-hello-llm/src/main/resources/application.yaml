@@ -9,4 +9,4 @@ spring:
         model: deepseek-v4-flash
 
   profiles:
-    active: localgit status
+    active: local
