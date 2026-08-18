@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: 02-prompt
+
+  ai:
+    openai:
+      base-url: https://api.deepseek.com
+      chat:
+        model: deepseek-v4-flash
+      api-key: ${DEEPSEEK_API_KEY}
+
+  profiles:
+    active: local
