@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: 04-json-output
+  ai:
+    openai:
+      api-key: ${DEEPSEEK_API_KEY}
+      base-url: https://api.deepseek.com
+      chat:
+        model: deepseek-v4-flash
+
+  profiles:
+    active: local
